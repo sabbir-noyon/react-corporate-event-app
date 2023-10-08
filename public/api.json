@@ -1,57 +1,57 @@
 [
     {
       "id": 1,
-      "img_url": "https://example.com/image1.jpg",
-      "title": "Annual Gala Dinner",
+      "img_url": "https://i.ibb.co/VM3TP85/asset-1.jpg",
+      "title": "DINNERS & RECEPTIONS",
       "description_short": "Join us for an unforgettable evening of fine dining, live entertainment, and networking.",
       "description_long": "Our Annual Gala Dinner is the most anticipated event of the year. It's an opportunity for professionals from various industries to come together, celebrate achievements, and build valuable connections. The night includes a gourmet dinner, captivating performances, and inspirational speakers."
     },
     {
       "id": 2,
-      "img_url": "https://example.com/image2.jpg",
-      "title": "Conference on Innovation",
+      "img_url": "https://i.ibb.co/NCPpvyD/asset-2.jpg",
+      "title": "CONFERENCES & MEETINGS",
       "description_short": "Explore the latest trends in innovation and technology with industry experts.",
       "description_long": "Our annual Conference on Innovation brings together thought leaders, entrepreneurs, and innovators to share insights and strategies. Attendees can expect engaging panel discussions, hands-on workshops, and the chance to discover groundbreaking technologies."
     },
     {
       "id": 3,
-      "img_url": "https://example.com/image3.jpg",
-      "title": "Team Building Retreat",
+      "img_url": "https://i.ibb.co/hXQKkMZ/asset-3.jpg",
+      "title": "INCENTIVE TRIPS & RETREATS​",
       "description_short": "Boost team morale and productivity with a weekend retreat in the great outdoors.",
       "description_long": "Our Team Building Retreat is designed to strengthen bonds among colleagues and improve teamwork. Activities include team challenges, leadership workshops, and relaxation by the campfire. It's an ideal way to refresh and refocus your team's dynamics."
     },
     {
       "id": 4,
-      "img_url": "https://example.com/image4.jpg",
-      "title": "Product Launch Expo",
+      "img_url": "https://i.ibb.co/jVppN3q/asset-4.jpg",
+      "title": "SEASONAL PARTIES",
       "description_short": "Unveil your latest products to a targeted audience of industry professionals.",
       "description_long": "The Product Launch Expo is the ultimate platform to introduce your new products to the market. It's a hub for product enthusiasts, buyers, and investors. Showcase your innovations, connect with potential clients, and gain valuable feedback."
     },
     {
       "id": 5,
-      "img_url": "https://example.com/image5.jpg",
-      "title": "Leadership Seminar",
+      "img_url": "https://i.ibb.co/PTXvy9J/asset-5.jpg",
+      "title": "RED CARPET & SPECIAL EVENTS",
       "description_short": "Learn from renowned leaders and enhance your leadership skills.",
       "description_long": "The Leadership Seminar features influential speakers sharing their experiences and insights on effective leadership. Attendees will gain practical knowledge, networking opportunities, and the inspiration to become better leaders in their organizations."
     },
     {
       "id": 6,
-      "img_url": "https://example.com/image6.jpg",
-      "title": "Charity Fundraising Gala",
+      "img_url": "https://i.ibb.co/5FdnfMF/asset-6.jpg",
+      "title": "BRAND & MARKETING EVENTS",
       "description_short": "Support a noble cause while enjoying a glamorous evening of philanthropy.",
       "description_long": "Our Charity Fundraising Gala is dedicated to making a positive impact on our community. Guests can contribute to various charitable causes while enjoying a night of elegance, entertainment, and giving."
     },
     {
       "id": 7,
-      "img_url": "https://example.com/image7.jpg",
-      "title": "Business Networking Breakfast",
+      "img_url": "https://i.ibb.co/mHzRsPp/asset-7.jpg",
+      "title": "CLIENT ENTERTAINMENT",
       "description_short": "Connect with local professionals over a delicious breakfast spread.",
       "description_long": "Our Business Networking Breakfasts offer a casual setting for professionals to expand their networks. Start your day with meaningful conversations, valuable connections, and a hearty breakfast."
     },
     {
       "id": 8,
-      "img_url": "https://example.com/image8.jpg",
-      "title": "Industry Workshop Series",
+      "img_url": "https://i.ibb.co/Kzrw7J4/asset-8.jpg",
+      "title": "LAUNCH & WRAP PARTIES",
       "description_short": "Stay updated on industry trends with our interactive workshop series.",
       "description_long": "Our Industry Workshop Series covers a wide range of topics relevant to your field. Engage in hands-on learning, gain actionable insights, and connect with industry experts. Elevate your professional skills and knowledge."
     }
