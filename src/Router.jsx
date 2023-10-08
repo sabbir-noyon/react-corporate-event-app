@@ -6,6 +6,7 @@ import Error404 from "./Pages/Error404";
 import Home from "./Components/Home";
 import Login from "./Components/Login";
 import Register from "./Components/Register";
+import EachCard from "./EachCard";
 
 
 
@@ -17,7 +18,8 @@ const router = createBrowserRouter([
     children:[
       {
         path:"/",
-        element:<Home></Home>
+        element:<Home></Home>,
+        loader: ()=> fetch('/api.json')
       },
 
       {
@@ -28,6 +30,13 @@ const router = createBrowserRouter([
       {
         path:"/register",
         element:<Register></Register>
+      },
+
+      {
+        path:"/dataForCards/:id",
+        element:<EachCard></EachCard>,
+        loader:()=>fetch('/public/api.json')
+        
       }
     
     ]
