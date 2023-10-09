@@ -4,7 +4,9 @@ const OurPortfolio = () => {
     return (
         <div>
           <div className="hero  bg-white">
-  <div className=" w-10/12 lg:my-0 mx-auto py-16 md:py-24 lg:py-40 hero-content flex-col lg:flex-row">
+  <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" className=" w-10/12 lg:my-0 mx-auto py-16 md:py-24 lg:py-40 hero-content flex-col lg:flex-row">
     <div >
     <img src="/public/asset 22.png" className=" lg:-ml-4  w-[200px] h-[100px]  md:w-[300px] md:h-[150px] lg:w-[400px] lg:h-[200px] rounded-xl shadow-2xl" />
     <img src="/public/asset 19.png" className=" lg:-ml-3  w-[200px] h-[100px] md:w-[300px] md:h-[150px]  lg:w-[400px] lg:h-[200px] rounded-xl shadow-2xl" />
