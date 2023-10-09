@@ -5,20 +5,8 @@ const Register = () => {
   const handleRegister = (e) => {
     e.preventDefault();
     const form = new FormData(e.currentTarget);
-    const name = form.get("name");
-    const email = form.get("email");
     const password = form.get("password");
 
-    console.log(name,email,password);
-
-    
-    
-    
-    
-    
-    
-    
-    
     // Password Validation
     if (password.length < 6) {
       swal("Error", "Password should be at least 6 characters long.", "error");
@@ -31,13 +19,7 @@ const Register = () => {
       swal("Success", "Registration successful!", "success");
       // You can add code to register the user here
     }
-
-
-
   };
-
-
-
 
   return (
     <div className="flex flex-col justify-center items-center lg:mt-40">
