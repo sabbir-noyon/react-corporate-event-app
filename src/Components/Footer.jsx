@@ -41,12 +41,12 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="text-white hover:text-red-500">
+              <a href="#" className="text-white hover:text-red-600">
                 <i className="fab fa-youtube text-2xl"></i>
               </a>
             </li>
             <li>
-              <a href="#" className="text-white hover:text-white">
+              <a href="#" className="text-white hover:text-blue-500">
                 <i className="fab fa-linkedin text-2xl"></i>
               </a>
             </li>
