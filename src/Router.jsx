@@ -7,6 +7,8 @@ import Home from "./Components/Home";
 import Login from "./Components/Login";
 import Register from "./Components/Register";
 import EachCard from "./EachCard";
+import PrivateRoute from "./Pages/PrivateRoute";
+
 
 
 
@@ -34,8 +36,8 @@ const router = createBrowserRouter([
 
       {
         path:"/dataForCards/:id",
-        element:<EachCard></EachCard>,
-        loader:()=>fetch('/public/api.json')
+        element:<PrivateRoute><EachCard></EachCard></PrivateRoute>,
+        loader:()=>fetch('/api.json')
         
       }
     
