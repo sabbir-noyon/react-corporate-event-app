@@ -2,10 +2,28 @@ import { NavLink } from "react-router-dom";
 import Logo from "./Logo";
 import { FaUserCircle, FaGoogle } from 'react-icons/fa';
 import {  FcGoogle } from 'react-icons/fc';
+import { useContext } from "react";
+import { AuthContext } from "../AuthProvider";
 
 
 
 const Navbar = () => {
+    
+    const {user, logOut} = useContext(AuthContext);
+
+    const handleSignOut = () => {
+        logOut()
+            .then()
+            .catch()
+
+    }
+
+
+    
+    
+    
+    
+    
     return (
         <div>
            <nav className="flex flex-col  lg:flex-row lg:justify-center items-center py-8 px-10 lg:py-12 lg:px-24 ">
@@ -38,9 +56,19 @@ const Navbar = () => {
                                 <img  src="/user.png" />
                             </div>
                         </label>
-                        <NavLink to="/login">
-                            <button onClick={{}} type="submit" className=" font-sourceSans w-24 rounded-md text-lg font-semibold text-white h-12 hover:bg-[#e43f0c] bg-[#FE3E01]">Login</button>
-                        </NavLink>
+                        
+                        {
+                            user ?
+                            <button onClick={handleSignOut} type="submit" className=" font-sourceSans w-24 rounded-md text-lg font-semibold text-white h-12 hover:bg-[#e43f0c] bg-[#FE3E01]">Sign Out</button>
+                            :
+
+                            <NavLink to="/login">
+                                <button onClick={{}} type="submit" className=" font-sourceSans w-24 rounded-md text-lg font-semibold text-white h-12 hover:bg-[#e43f0c] bg-[#FE3E01]">Login</button>
+                            </NavLink>
+
+                        }
+
+                        
                     </div>
 
 
