@@ -25,7 +25,7 @@ const SingleCard = ({eachCard}) => {
                
                 </div>
                 <div className="my-0 mx-auto">
-                <button type="submit" className=" text-left bg-[#853dd6] hover:bg-[#6a17c9] text-white text-lg font-medium max-w-fit  rounded-lg px-4 py-2 mt-3 mb-7 ml-3"><Link to={`/dataForCards/${id}`}>View Details</Link></button>
+                <button type="submit" className=" text-left bg-[#853dd6] hover:bg-[#6a17c9] text-white text-lg font-medium max-w-fit  rounded-lg px-4 py-2 mt-3 mb-7 ml-3"><Link to={`/dataForCards/${id}`}>Service Details</Link></button>
                 </div>
             </div>
         </Link>
