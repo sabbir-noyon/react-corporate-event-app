@@ -18,7 +18,7 @@ const Login = () => {
     try {
       await signIn(email, password);
 
-      swal("Login successful!","You have logged in successfully",  "success");
+      swal("Login Successful!","You have logged in successfully",  "success");
       navigate(location?.state ? location.state : "/");
     } catch (error) {
       console.error(error);
@@ -30,7 +30,7 @@ const Login = () => {
       } else {
         setError("An error occurred while logging in");
       }
-      swal("Wrong user input","Login Information Not Matched",  "error");
+      swal("Invalid Login Credentials","Email or Password Doesn't Match",  "error");
     }
   };
 

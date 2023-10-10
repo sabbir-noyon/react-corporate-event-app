@@ -22,13 +22,9 @@ const Navbar = () => {
                     <li className="text-2xl font-medium text-[#0B0B0B]">
                         <NavLink
                             to="/"
-                            className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? "text-2xl text-[#FE3E01] font-semibold underline":""}>
-
-
-                            
-                            
-                        
+                            activeClassName="text-[#FE3E01] font-semibold underline"
+                            className="text-2xl"
+                        >
                             Home
                         </NavLink>
                     </li>
@@ -36,13 +32,9 @@ const Navbar = () => {
                     <li className="text-2xl font-medium text-[#0B0B0B]">
                         <NavLink
                             to="/login"
-
-                            className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? "text-2xl text-[#FE3E01] font-semibold underline":""}>
-
-
-                            
-                        
+                            activeClassName="text-[#FE3E01] font-semibold underline"
+                            className="text-2xl"
+                        >
                             Login
                         </NavLink>
                     </li>
@@ -50,13 +42,9 @@ const Navbar = () => {
                     <li className="text-2xl font-medium text-[#0B0B0B]">
                         <NavLink
                             to="/register"
-
-                            className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? "text-2xl text-[#FE3E01] font-semibold underline":""}>
-
-
-                            
-                        
+                            activeClassName="text-[#FE3E01] font-semibold underline"
+                            className="text-2xl"
+                        >
                             Register
                         </NavLink>
                     </li>
@@ -66,28 +54,18 @@ const Navbar = () => {
                             <li className="text-2xl font-medium text-[#0B0B0B]">
                                 <NavLink
                                     to="/booking"
-
-                                    className={({ isActive, isPending }) =>
-                                    isPending ? "pending" : isActive ? "text-2xl text-[#FE3E01] font-semibold underline":""}>
-
-
-                                    
-                                    
-                                
+                                    activeClassName="text-[#FE3E01] font-semibold underline"
+                                    className="text-2xl"
+                                >
                                     Booking
                                 </NavLink>
                             </li>
                             <li className="text-2xl font-medium text-[#0B0B0B]">
                                 <NavLink
                                     to="/faqs"
-
-                                    className={({ isActive, isPending }) =>
-                                    isPending ? "pending" : isActive ? "text-2xl text-[#FE3E01] font-semibold underline":""}>
-
-
-                                    
-                                    
-                                
+                                    activeClassName="text-[#FE3E01] font-semibold underline"
+                                    className="text-2xl"
+                                >
                                     FAQs
                                 </NavLink>
                             </li>

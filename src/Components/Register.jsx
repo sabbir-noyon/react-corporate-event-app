@@ -22,14 +22,14 @@ const Register = () => {
 
     // Password Validation
     if (password.length < 6) {
-      swal("Error", "Password should be at least 6 characters long.", "error");
+      swal("Unsuccessful", "Password Should Be At Least 6 Characters Long.", "error");
     } else if (!/[A-Z]/.test(password)) {
-      swal("Error", "Password should contain at least one capital letter.", "error");
+      swal("Unsuccessful", "Password Should Contain At Least One Capital Letter.", "error");
     } else if (!/[\W_]/.test(password)) {
-      swal("Error", "Password should contain at least one special character.", "error");
+      swal("Unsuccessful", "Password Should Contain At Least One Special Character.", "error");
     } else {
       // Registration Success
-      swal("Success", "Registration successful!", "success");
+      swal("Congratulations!", "Registration Successful", "success");
       // You can add code to register the user here
     }
 
