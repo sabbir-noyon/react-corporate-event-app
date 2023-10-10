@@ -3,7 +3,7 @@
 const Banner = () => {
     return (
         <div>
-            <div className="carousel w-full">
+            <div className="mt-8 md:mt-8 lg:mt-0  carousel w-full">
   <div id="slide1" className="carousel-item relative w-full">
   <div className="absolute inset-0 bg-black opacity-70"></div>
     <img src="/banner_1.png" className="w-full" />

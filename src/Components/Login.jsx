@@ -35,7 +35,7 @@ const Login = () => {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center lg:mt-40">
+    <div className="flex flex-col justify-center items-center mt-8 md:mt-8 mb-16 md:mb-16 lg:mb-0 lg:mt-40">
       <h1 className="text-[#FE3E01] lg:mt-6 mt-4 lg:mb-7 mb-4 text-center text-3xl lg:text-5xl font-poppins font-semibold">
         Please Login
       </h1>
@@ -81,7 +81,7 @@ const Login = () => {
       </form>
       <p className="lg:mt-4 mt-3 text-xl font-medium">
         Don't have an account?
-        <Link className="text-[#853dd6] font-semibold text-xl" to="/register">
+        <Link className="text-[#853dd6] font-bold text-xl" to="/register">
           {" "}
           Register Now{" "}
         </Link>
