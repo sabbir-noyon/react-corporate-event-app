@@ -17,10 +17,12 @@ const Login = () => {
 
     try {
       await signIn(email, password);
-      console.log("Login successful!");
+
+      swal("Login successful!","You have logged in successfully",  "success");
       navigate(location?.state ? location.state : "/");
     } catch (error) {
       console.error(error);
+      console.log(error.code);
       if (error.code === "auth/user-not-found") {
         setError("Wrong email address");
       } else if (error.code === "auth/wrong-password") {

@@ -50,10 +50,34 @@ const Navbar = () => {
                     </NavLink>
                     </li>
 
+                    {
+                        user &&
+                        <li className="text-2xl font-medium text-[#0B0B0B]" >
+                        <NavLink to="/booking"
+                        className={({ isActive, isPending }) =>
+                        isPending ? "pending" : isActive ? "text-2xl text-[#FE3E01] font-semibold underline":""}>Booking
+                        </NavLink>
+                        </li>
+                    }
+
+                    {
+                        user &&
+                        <li className="text-2xl font-medium text-[#0B0B0B]" >
+                        <NavLink to="/faqs"
+                        className={({ isActive, isPending }) =>
+                        isPending ? "pending" : isActive ? "text-2xl text-[#FE3E01] font-semibold underline":""}>FAQS
+                        </NavLink>
+                        </li>
+                    }
+
+
+
+
+
                     <div className="lg:ml-52 lg:text-right flex">
                         <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                             <div className="w-10 rounded-full">
-                                <img  src="/user.png" />
+                               {user && <img  src="/user.png" /> } 
                             </div>
                         </label>
                         

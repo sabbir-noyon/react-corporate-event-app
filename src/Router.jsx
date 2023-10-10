@@ -8,6 +8,8 @@ import Login from "./Components/Login";
 import Register from "./Components/Register";
 import EachCard from "./EachCard";
 import PrivateRoute from "./Pages/PrivateRoute";
+import Booking from "./Pages/Booking";
+import Faq from "./Pages/Faq";
 
 
 
@@ -32,6 +34,16 @@ const router = createBrowserRouter([
       {
         path:"/register",
         element:<Register></Register>
+      },
+
+      {
+        path:"/booking",
+        element:<PrivateRoute><Booking></Booking></PrivateRoute>
+      },
+
+      {
+        path:"/faqs",
+        element:<PrivateRoute><Faq></Faq></PrivateRoute>
       },
 
       {

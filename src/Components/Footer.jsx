@@ -12,18 +12,18 @@ const Footer = () => {
 
           <ul data-aos="zoom-out-up" className="flex flex-wrap justify-center md:flex-row mt-6 md:mt-0">
             <li className="mr-6 mb-2">
-              <a href="#" className="text-white hover:text-pink-500">Our Story</a>
+              <a href="#" className="text-white hover:text-red-600">Our Story</a>
             </li>
             
             
             <li className="mr-6 mb-2">
-              <a href="#" className="text-white hover:text-pink-500">Careers</a>
+              <a href="#" className="text-white hover:text-red-600">Careers</a>
             </li>
             <li className="mr-6 mb-2">
-              <a href="#" className="text-white hover:text-pink-500">Support</a>
+              <a href="#" className="text-white hover:text-red-600">Support</a>
             </li>
             <li className="mb-2">
-              <a href="#" className="text-white hover:text-pink-500">My Account</a>
+              <a href="#" className="text-white hover:text-red-600">My Account</a>
             </li>
           </ul>
         </div>
@@ -31,12 +31,12 @@ const Footer = () => {
         <div  data-aos="zoom-out-up" className="flex justify-center mt-6">
           <ul className="flex items-center space-x-6">
             <li>
-              <a href="#" className="text-white hover:text-blue-500">
+              <a href="#" className="text-white hover:text-red-600">
                 <i className="fab fa-facebook text-2xl"></i>
               </a>
             </li>
             <li>
-              <a href="#" className="text-white hover:text-blue-500">
+              <a href="#" className="text-white hover:text-red-600">
                 <i className="fab fa-twitter text-2xl"></i>
               </a>
             </li>
@@ -46,7 +46,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="text-white hover:text-blue-500">
+              <a href="#" className="text-white hover:text-red-600">
                 <i className="fab fa-linkedin text-2xl"></i>
               </a>
             </li>
@@ -55,16 +55,16 @@ const Footer = () => {
 
         <ul data-aos="zoom-out-up" className="flex flex-wrap justify-center mt-6">
           <li className="mr-6 mb-2">
-            <a href="#" className="text-white hover:text-white">Terms and Conditions</a>
+            <a href="#" className="text-white hover:text-red-600">Terms and Conditions</a>
           </li>
           <li className="mr-6 mb-2">
-            <a href="#" className="text-white hover:text-white">Privacy Policy</a>
+            <a href="#" className="text-white hover:text-red-600">Privacy Policy</a>
           </li>
           <li className="mr-6 mb-2">
-            <a href="#" className="text-white hover:text-white">Cookie Policy</a>
+            <a href="#" className="text-white hover:text-red-600">Cookie Policy</a>
           </li>
           <li className="mb-2">
-            <a href="#" className="text-white hover:text-white">FAQs</a>
+            <a href="#" className="text-white hover:text-red-600">FAQs</a>
           </li>
         </ul>
 

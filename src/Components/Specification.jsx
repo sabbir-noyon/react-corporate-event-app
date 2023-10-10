@@ -10,7 +10,7 @@ const Specification = () => {
      data-aos-duration="1500" src="/right_aside.png" className="lg:ml-10 mt-20 lg:mt-0 lg:w-[700px] lg:h-[700px] rounded-xl shadow-2xl" />
     <div data-aos="fade-up"
      data-aos-duration="3000" className="lg:mt-20">
-      <h1 className="mt-12 lg:mt-0 text-center lg:text-justify   text-[#853dd6] text-3xl md:text-4xl lg:text-5xl font-bold font-sourceSans">WHO IS CORPORATE</h1>
+      <h1 className="mt-12 lg:mt-0 text-center lg:text-justify   text-[#FE3E01] text-3xl md:text-4xl lg:text-5xl font-bold font-sourceSans">WHO IS CORPORATE</h1>
       <h1 className="mt-2 lg:mt-6 text-center lg:text-justify text-[white] text-3xl md:text-4xl lg:text-5xl font-bold font-sourceSans">EVENT PLANNING FOR?</h1>
 
       {/* daisyui tik mark */}
@@ -32,7 +32,7 @@ const Specification = () => {
       
       
       <div className="lg:mt-8 text-center lg:mr-10 ">
-      <button type="submit" className="outline-none text-left hover:bg-[#6c19cb] bg-[#853dd6] text-white text-lg font-medium max-w-fit  rounded-lg px-4 py-3 mt-3 mb-7 ml-3">Get Started</button>
+      <button type="submit" className="outline-none text-left hover:bg-[#c93103] bg-[#FE3E01] text-white text-lg font-medium max-w-fit  rounded-lg px-4 py-3 mt-3 mb-7 ml-3">Get Started</button>
       </div>
       
       

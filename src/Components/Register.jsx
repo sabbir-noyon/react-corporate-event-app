@@ -20,6 +20,19 @@ const Register = () => {
 
     console.log(name,email,password);
 
+    // Password Validation
+    if (password.length < 6) {
+      swal("Error", "Password should be at least 6 characters long.", "error");
+    } else if (!/[A-Z]/.test(password)) {
+      swal("Error", "Password should contain at least one capital letter.", "error");
+    } else if (!/[\W_]/.test(password)) {
+      swal("Error", "Password should contain at least one special character.", "error");
+    } else {
+      // Registration Success
+      swal("Success", "Registration successful!", "success");
+      // You can add code to register the user here
+    }
+
     //create user
 
     createUser(email,password)
@@ -35,18 +48,7 @@ const Register = () => {
     
     
     
-    // Password Validation
-    if (password.length < 6) {
-      swal("Error", "Password should be at least 6 characters long.", "error");
-    } else if (!/[A-Z]/.test(password)) {
-      swal("Error", "Password should contain at least one capital letter.", "error");
-    } else if (!/[\W_]/.test(password)) {
-      swal("Error", "Password should contain at least one special character.", "error");
-    } else {
-      // Registration Success
-      swal("Success", "Registration successful!", "success");
-      // You can add code to register the user here
-    }
+    
 
 
 

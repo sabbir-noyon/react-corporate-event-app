@@ -3,7 +3,7 @@
 const Error404 = () => {
     return (
         <div>
-            <h1 className="text-5xl text-red-500 flex justify-center mt-96 mx-auto ">Error 404, Page Not Found!</h1>
+            <h1 className="text-4xl text-center lg:text-6xl font-bold text-red-500 flex justify-center items-center mt-52 lg:mt-96 mx-auto ">Oops ! Page Not Found, Error 404</h1>
         </div>
     );
 };
