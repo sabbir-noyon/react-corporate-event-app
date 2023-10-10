@@ -31,7 +31,7 @@ const Booking = () => {
                         name="name"
                         value={name}
                         onChange={(e) => setName(e.target.value)}
-                        placeholder="John Doe"
+                        placeholder="Your Full Name"
                         className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:border-[#FE3E01]"
                         required
                     />
@@ -46,7 +46,7 @@ const Booking = () => {
                         name="email"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
-                        placeholder="example@example.com"
+                        placeholder="Your Email"
                         className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:border-[#FE3E01]"
                         required
                     />
@@ -61,7 +61,7 @@ const Booking = () => {
                         name="phone"
                         value={phone}
                         onChange={(e) => setPhone(e.target.value)}
-                        placeholder="123-456-7890"
+                        placeholder="Your Phone Number"
                         className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:border-[#FE3E01]"
                         required
                     />
