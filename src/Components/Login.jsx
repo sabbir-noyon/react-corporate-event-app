@@ -18,19 +18,13 @@ const Login = () => {
     try {
       await signIn(email, password);
 
-      swal("Login Successful!","You have logged in successfully",  "success");
+      swal("Login Successful!", "You have logged in successfully", "success");
       navigate(location?.state ? location.state : "/");
     } catch (error) {
       console.error(error);
-      console.log(error.code);
-      if (error.code === "auth/user-not-found") {
-        setError("Wrong email address");
-      } else if (error.code === "auth/wrong-password") {
-        setError("Wrong password");
-      } else {
-        setError("An error occurred while logging in");
-      }
-      swal("Invalid Login Credentials","Email or Password Doesn't Match",  "error");
+
+      setError("An error occurred while logging in");
+      swal("Invalid Login Credentials", error.message, "error");
     }
   };
 
@@ -72,7 +66,7 @@ const Login = () => {
               </a> */}
           </p>
         </div>
-        {error && <p className="text-red-500 mt-2">{error}</p>}
+        
         <div className="mt-6">
           <button className="w-full py-2 px-4 bg-[#FE3E01] text-white text-xl font-semibold rounded-lg hover:bg-[#FF5C33] focus:outline-none focus:ring focus:ring-[#FE3E01]">
             Login

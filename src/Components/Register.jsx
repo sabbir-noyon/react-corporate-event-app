@@ -1,12 +1,14 @@
 import { useContext } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate  } from "react-router-dom";
 import swal from "sweetalert";
 import { AuthContext } from "../AuthProvider";
+
 
 const Register = () => {
 
   const {createUser} = useContext(AuthContext);
-
+  const location = useLocation();
+  const navigate = useNavigate();
 
 
 
@@ -31,6 +33,7 @@ const Register = () => {
       // Registration Success
       swal("Congratulations!", "Registration Successful", "success");
       // You can add code to register the user here
+      navigate(location?.state ? location.state : "/");
     }
 
     //create user
