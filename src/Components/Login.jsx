@@ -9,6 +9,13 @@ const Login = () => {
   const navigate = useNavigate();
   const [error, setError] = useState("");
 
+  const { signInWithGoogle } = useContext(AuthContext);
+  
+  const handleGoogleLogin = () => {
+    signInWithGoogle();
+    navigate(location?.state ? location.state : "/");
+  }
+
   const handleLogin = async (e) => {
     e.preventDefault();
     const form = new FormData(e.currentTarget);
@@ -28,6 +35,10 @@ const Login = () => {
     }
   };
 
+  
+  
+  
+  
   return (
     <div className="flex flex-col justify-center items-center mt-8 md:mt-8 mb-16 md:mb-16 lg:mb-0 lg:mt-40">
       <h1 className="text-[#FE3E01] lg:mt-6 mt-4 lg:mb-7 mb-4 text-center text-3xl lg:text-5xl font-poppins font-semibold">
@@ -80,6 +91,12 @@ const Login = () => {
           Register Now{" "}
         </Link>
       </p>
+
+      <div className="lg:mt-32 mt-10">
+        <button onClick={handleGoogleLogin} className="w-full py-2 px-6 bg-[#FE3E01] text-white text-xl font-semibold rounded-lg hover:bg-[#FF5C33] focus:outline-none focus:ring focus:ring-[#FE3E01]">
+          Login with Google
+        </button>
+      </div>
     </div>
   );
 };

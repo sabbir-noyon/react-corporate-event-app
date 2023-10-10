@@ -96,10 +96,12 @@ const Navbar = () => {
                         </>
                     )}
 
-                    <div className="flex mt-4 lg:mt-0 lg:ml-4">
+                    <div className=" mt-4 lg:mt-0 lg:ml-4 lg:flex">
                         
-                            <div className="w-10 rounded-full  mt-1 mr-2  ml-[-52px] md:ml-[-52px] lg:-ml-0">
-                               {user && <img src="/user.png" alt="User Avatar" />} 
+                            <div className="flex w-auto rounded-full lg:mb-0 mb-4 mt-1 mr-2  ml-[-52px] md:ml-[-52px]  lg:-ml-0">
+                               {user && <img src={user.photoURL?user.photoURL: "/user.png"}  alt="User Avatar" className="border w-10 lg:w-12 rounded-full"/>}
+                               {user && <p className="ml-2 lg:mt-0 mt-1  " >{user.displayName}</p>}
+
                             </div>
                         
                         

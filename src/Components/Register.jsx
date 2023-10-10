@@ -38,7 +38,7 @@ const Register = () => {
 
     //create user
 
-    createUser(email,password)
+    createUser(name, email,password)
     .then(result => {
       console.log(result.user)
     })
