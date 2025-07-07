@@ -49,7 +49,7 @@ Devents is a corporate event planning and management solution designed to provid
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/project-corporate-solution.git
+    git clone https://github.com/sabbir-noyon/project-corporate-solution.git
     ```
 
 2. Navigate into the project directory:
