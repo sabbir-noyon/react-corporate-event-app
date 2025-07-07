@@ -19,7 +19,7 @@ const Booking = () => {
 
     return (
         <div className="container mt-12 mb-12 mx-auto p-6">
-            <h1 className="text-4xl font-bold mb-10 text-center  text-[#FE3E01]">Book an Event</h1>
+            <h1 className="text-[#FE3E01] lg:mt-6 mt-4 lg:mb-7 mb-4 text-center text-3xl lg:text-5xl font-poppins font-semibold">Book an Event</h1>
             <form onSubmit={handleSubmit} className="max-w-md mx-auto space-y-4">
                 <div className="mb-4">
                     <label htmlFor="name" className="block text-gray-700 font-semibold">

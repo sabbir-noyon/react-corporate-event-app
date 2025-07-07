@@ -1,134 +1,79 @@
 import { NavLink } from "react-router-dom";
 import Logo from "./Logo";
 import { FaUserCircle } from 'react-icons/fa';
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { AuthContext } from "../AuthProvider";
+import { HiOutlineMenu, HiX } from "react-icons/hi";
 
 const Navbar = () => {
-    
-    const { user, logOut } = useContext(AuthContext);
+  const { user, logOut } = useContext(AuthContext);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-    console.log(user);
+  const handleSignOut = () => {
+    logOut().then().catch();
+  };
 
-    const handleSignOut = () => {
-        logOut()
-            .then()
-            .catch()
-    }
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
 
-    return (
-        <div>
-           <nav className="flex flex-col lg:flex-row lg:justify-between items-center py-8 px-4 lg:py-12 lg:px-24">
-                <Logo />
-                <ul className="flex flex-col lg:flex-row gap-2 lg:gap-10">
-                    <li className="text-2xl font-medium text-[#0B0B0B]">
-                        <NavLink
-                            to="/"
-                            className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? "text-2xl text-[#FE3E01] font-semibold underline":""}>
-
-
-                            
-                            
-                        
-                            Home
-                        </NavLink>
-                    </li>
-
-                    <li className="text-2xl font-medium text-[#0B0B0B]">
-                        <NavLink
-                            to="/login"
-
-                            className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? "text-2xl text-[#FE3E01] font-semibold underline":""}>
-
-
-                            
-                        
-                            Login
-                        </NavLink>
-                    </li>
-
-                    <li className="text-2xl font-medium text-[#0B0B0B]">
-                        <NavLink
-                            to="/register"
-
-                            className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? "text-2xl text-[#FE3E01] font-semibold underline":""}>
-
-
-                            
-                        
-                            Register
-                        </NavLink>
-                    </li>
-
-                    {user && (
-                        <>
-                            <li className="text-2xl font-medium text-[#0B0B0B]">
-                                <NavLink
-                                    to="/booking"
-
-                                    className={({ isActive, isPending }) =>
-                                    isPending ? "pending" : isActive ? "text-2xl text-[#FE3E01] font-semibold underline":""}>
-
-
-                                    
-                                    
-                                
-                                    Booking
-                                </NavLink>
-                            </li>
-                            <li className="text-2xl font-medium text-[#0B0B0B]">
-                                <NavLink
-                                    to="/faqs"
-
-                                    className={({ isActive, isPending }) =>
-                                    isPending ? "pending" : isActive ? "text-2xl text-[#FE3E01] font-semibold underline":""}>
-
-
-                                    
-                                    
-                                
-                                    FAQs
-                                </NavLink>
-                            </li>
-                        </>
-                    )}
-
-                    <div className=" mt-4 lg:mt-0 lg:ml-4 lg:flex">
-                        
-                            <div className="flex w-auto rounded-full lg:mb-0 mb-4 mt-1 mr-2  ml-[-52px] md:ml-[-52px]  lg:-ml-0">
-                               {user && <img src={user.photoURL?user.photoURL: "/user.png"}  alt="User Avatar" className="border w-10 lg:w-12 rounded-full"/>}
-                               {user && <p className="ml-2 lg:mt-0 mt-1  " >{user.displayName}</p>}
-
-                            </div>
-                        
-                        
-                        {user ? (
-                            <button
-                                onClick={handleSignOut}
-                                type="submit"
-                                className="font-sourceSans w-24 rounded-md text-lg font-semibold text-white h-12 hover:bg-[#e43f0c] bg-[#FE3E01]"
-                            >
-                                Sign Out
-                            </button>
-                        ) : (
-                            <NavLink to="/login">
-                                <button
-                                    onClick={() => {}}
-                                    type="submit"
-                                    className="font-sourceSans w-24 rounded-md text-lg font-semibold text-white h-12 hover:bg-[#e43f0c] bg-[#FE3E01]"
-                                >
-                                    Login
-                                </button>
-                            </NavLink>
-                        )}
-                    </div>
-                </ul>
-            </nav>
+  return (
+    <nav className="flex flex-col lg:flex-row lg:justify-between items-center px-4 lg:px-24 py-6 lg:py-8 bg-white shadow-md">
+      <div className="flex items-center justify-between w-full lg:w-auto">
+        <div className="flex items-center">
+          <img src="/logo.png" className="w-28 md:w-32 lg:w-36" alt="Logo" />
         </div>
-    );
+
+        <div className="lg:hidden flex items-center">
+          <button onClick={toggleMenu} className="text-3xl text-[#FE3E01] focus:outline-none">
+            {isMenuOpen ? <HiX /> : <HiOutlineMenu />}
+          </button>
+        </div>
+      </div>
+
+      <ul className={`flex flex-col lg:flex-row gap-4 lg:gap-10 items-center mt-4 lg:mt-0 w-full lg:w-auto ${isMenuOpen ? 'block' : 'hidden'} lg:flex`}>
+        <li className="text-xl lg:text-xl font-medium text-[#0B0B0B]">
+          <NavLink to="/" className={({ isActive }) => (isActive ? "text-[#FE3E01] font-semibold underline" : "")}>Home</NavLink>
+        </li>
+
+        <li className="text-xl lg:text-xl font-medium text-[#0B0B0B]">
+          <NavLink to="/login" className={({ isActive }) => (isActive ? "text-[#FE3E01] font-semibold underline" : "")}>Login</NavLink>
+        </li>
+
+        <li className="text-xl lg:text-xl font-medium text-[#0B0B0B]">
+          <NavLink to="/register" className={({ isActive }) => (isActive ? "text-[#FE3E01] font-semibold underline" : "")}>Register</NavLink>
+        </li>
+
+        {user && (
+          <>
+            <li className="text-xl lg:text-xl font-medium text-[#0B0B0B]">
+              <NavLink to="/booking" className={({ isActive }) => (isActive ? "text-[#FE3E01] font-semibold underline" : "")}>Booking</NavLink>
+            </li>
+
+            <li className="text-xl lg:text-xl font-medium text-[#0B0B0B]">
+              <NavLink to="/faqs" className={({ isActive }) => (isActive ? "text-[#FE3E01] font-semibold underline" : "")}>FAQs</NavLink>
+            </li>
+          </>
+        )}
+
+        {user && (
+          <div className="flex items-center mt-4 lg:mt-0 w-full lg:w-auto justify-between">
+            <img src={user.photoURL ? user.photoURL : "/user.png"} alt="User Avatar" className="border w-10 lg:w-12 rounded-full mr-2" />
+            <p className="text-base lg:text-lg font-medium mr-4">{user.displayName}</p>
+            <button onClick={handleSignOut} className="bg-[#FE3E01] hover:bg-[#e43f0c] text-white text-base lg:text-lg font-medium px-4 py-2 rounded-md">Sign Out</button>
+          </div>
+        )}
+
+        {!user && (
+          <div className="flex items-center mt-4 lg:mt-0 w-full lg:w-auto justify-between">
+            <button className="bg-[#FE3E01] hover:bg-[#e43f0c] text-white text-base lg:text-lg font-medium px-4 py-2 rounded-md w-full lg:w-auto">
+              <NavLink to="/login">Login</NavLink>
+            </button>
+          </div>
+        )}
+      </ul>
+    </nav>
+  );
 };
 
 export default Navbar;

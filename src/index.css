@@ -6,3 +6,94 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-padding-top: 150px; /* Adjust to your header/nav height */
+}
+
+.carousel-item {
+  scroll-margin-top: 150px; /* Same adjustment */
+}
+
+.carousel-item {
+  min-height: 70vh; /* 70% of viewport height */
+}
+
+@media (min-width: 760px) {
+  html {
+  scroll-padding-top: 400px; /* Adjust to your header/nav height */
+}
+
+.carousel-item {
+  scroll-margin-top: 400px; /* Same adjustment */
+}
+
+}
+
+@media (max-width: 768px) {
+
+  html {
+  scroll-padding-top: 400px; /* Adjust to your header/nav height */
+}
+
+.carousel-item {
+  scroll-margin-top: 400px; /* Same adjustment */
+}
+    
+  .carousel-item {
+    min-height: 60vh; /* Slightly less for tablets */
+  }
+}
+
+
+@media (max-width: 480px) {
+
+  html {
+  scroll-padding-top: 400px; /* Adjust to your header/nav height */
+}
+
+.carousel-item {
+  scroll-margin-top: 400px; /* Same adjustment */
+}
+
+.carousel-item {
+    min-height: 50vh; /* For small mobile screens */
+  }
+}
+
+.banner-heading {
+
+  font-size: 1.75rem; /* 28px for small screens */
+}
+
+.banner-subheading {
+  
+  font-size: 1.25rem; /* 20px for small screens */
+  top: 3.5rem; /* Similar to top-14 */
+}
+
+@media (min-width: 640px) {
+  .banner-heading {
+    font-size: 2.25rem; /* 36px */
+  }
+  .banner-subheading {
+    font-size: 1.75rem; /* 28px */
+  }
+}
+
+@media (min-width: 768px) {
+  .banner-heading {
+    font-size: 3rem; /* 48px */
+  }
+  .banner-subheading {
+    font-size: 2.25rem; /* 36px */
+  }
+}
+
+@media (min-width: 1024px) {
+  .banner-heading {
+    font-size: 4.5rem; /* 72px */
+  }
+  .banner-subheading {
+    font-size: 3.5rem; /* 56px */
+  }
+}
