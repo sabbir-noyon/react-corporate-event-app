@@ -8,6 +8,7 @@ import {
   GoogleAuthProvider, // Import GoogleAuthProvider
   signOut,
 } from "firebase/auth";
+
 import app from "./firebase.config";
 
 export const AuthContext = createContext(null);

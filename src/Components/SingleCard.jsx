@@ -36,8 +36,7 @@ const SingleCard = ({ eachCard }) => {
                         <button 
                             type="button" 
                             className="bg-[#FE3E01] hover:bg-[#d83504] text-white text-base sm:text-lg font-medium rounded-lg px-4 py-2 mt-2"
-                        >
-                            Service Details
+                        >Service Details
                         </button>
                     </Link>
                 </div>

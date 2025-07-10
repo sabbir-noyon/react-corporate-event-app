@@ -1,5 +1,3 @@
-
-
 import {createBrowserRouter} from "react-router-dom";
 import MainLayout from "./Pages/MainLayout";
 import Error404 from "./Pages/Error404";
@@ -10,9 +8,6 @@ import EachCard from "./EachCard";
 import PrivateRoute from "./Pages/PrivateRoute";
 import Booking from "./Pages/Booking";
 import Faq from "./Pages/Faq";
-
-
-
 
 const router = createBrowserRouter([
   {
@@ -50,9 +45,7 @@ const router = createBrowserRouter([
         path:"/dataForCards/:id",
         element:<PrivateRoute><EachCard></EachCard></PrivateRoute>,
         loader:()=>fetch('/api.json')
-        
       }
-    
     ]
   },
 ]);

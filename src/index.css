@@ -1,6 +1,4 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Source+Sans+3:wght@200;300;400;500;600;700;800;900&display=swap');
-
 
 @tailwind base;
 @tailwind components;
@@ -30,7 +28,6 @@ html {
 }
 
 @media (max-width: 768px) {
-
   html {
   scroll-padding-top: 400px; /* Adjust to your header/nav height */
 }
@@ -38,15 +35,12 @@ html {
 .carousel-item {
   scroll-margin-top: 400px; /* Same adjustment */
 }
-    
   .carousel-item {
     min-height: 60vh; /* Slightly less for tablets */
   }
 }
 
-
 @media (max-width: 480px) {
-
   html {
   scroll-padding-top: 400px; /* Adjust to your header/nav height */
 }
@@ -61,12 +55,10 @@ html {
 }
 
 .banner-heading {
-
   font-size: 1.75rem; /* 28px for small screens */
 }
 
 .banner-subheading {
-  
   font-size: 1.25rem; /* 20px for small screens */
   top: 3.5rem; /* Similar to top-14 */
 }

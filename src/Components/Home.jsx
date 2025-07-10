@@ -6,9 +6,6 @@ import Specification from "./Specification";
 import OurPortfolio from "./OurPortfolio";
 import Footer from "./Footer";
 
-
-
-
 const Home = () => {
 
     const dataForCards = useLoaderData();
@@ -21,7 +18,6 @@ const Home = () => {
             <Specification></Specification>
             <OurPortfolio></OurPortfolio>
             <Footer></Footer>
-
         </div>
     );
 };

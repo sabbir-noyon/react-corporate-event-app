@@ -3,16 +3,11 @@ import { Link, useLocation, useNavigate  } from "react-router-dom";
 import swal from "sweetalert";
 import { AuthContext } from "../AuthProvider";
 
-
 const Register = () => {
 
   const {createUser} = useContext(AuthContext);
   const location = useLocation();
   const navigate = useNavigate();
-
-
-
-
   const handleRegister = (e) => {
     e.preventDefault();
     const form = new FormData(e.currentTarget);
@@ -47,18 +42,7 @@ const Register = () => {
       console.error(error)
     })
 
-    
-    
-    
-    
-    
-
-
-
   };
-
-
-
 
   return (
     <div className="flex flex-col justify-center items-center mt-8 md:mt-8 mb-16 md:mb-16 lg:mb-0 lg:mt-40">
