@@ -1,6 +1,6 @@
 # Devents - Corporate Event Solutions
 
-![Devents Logo](public/readme-assets/logo.png)
+![Devents Logo](public/readme-assets/logo.png) ![Devents Dark Mode Logo](public/readme-assets/logo-dark-mode.png)
 
 ### 🔗 **Live Link:**  
 [Devents - Corporate Event Solutions](https://project-corporate-solution.web.app/)
