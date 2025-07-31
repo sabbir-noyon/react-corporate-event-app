@@ -1,15 +1,10 @@
-# Devents - Corporate Event Solutions
+# Dvents - Corporate Event Solutions
 
-![Devents Logo](public/readme-assets/logo.png)
-
-### 🔗 **Live Link:**  
-[Devents - Corporate Event Solutions](https://project-corporate-solution.web.app/)
-
----
+![Dvents Logo](public/readme-assets/logo.png)
 
 ## Project Overview
 
-Devents is a corporate event planning and management solution designed to provide seamless event services for businesses. This web app offers user authentication, secure private routes, dynamic content, and a fully responsive design for an optimal experience across devices.
+Dvents is a corporate event planning and management solution designed to provide seamless event services for businesses. This web app offers user authentication, secure private routes, dynamic content, and a fully responsive design for an optimal experience across devices.
 
 ---
 
@@ -21,25 +16,30 @@ Devents is a corporate event planning and management solution designed to provid
 - **Protected Routes:** Access control ensuring only authenticated users can view private pages.
 - **Responsive Design:** Mobile, tablet, and desktop-friendly layout that adapts flawlessly.
 - **Animated UI:** Smooth animations powered by AOS library for enhanced user experience.
+- **Real-time Contact Functionality:** Contact form submissions are delivered instantly to the event team’s inbox.
+- **Live Resume Sharing:** Job seekers or collaborators can submit their resume directly from the platform.
+- **Functional Booking System:** Authenticated users can initiate service bookings through a real email-based submission system.
 
 ---
 
 ## Screenshots
 
-### Desktop Version  
+### Desktop Version
+
 ![Desktop View](public/readme-assets/desktop-version.png)
 
-### Mobile Version  
+### Mobile Version
+
 ![Mobile View](public/readme-assets/mobile-version.png)
 
 ---
 
 ## Technologies Used
 
-- React.js with React Router DOM  
-- Tailwind CSS & DaisyUI for styling  
-- Firebase Authentication & Firestore  
-- AOS (Animate on Scroll) for UI animations  
+- React.js with React Router DOM
+- Tailwind CSS & DaisyUI for styling
+- Firebase Authentication & Firestore
+- AOS (Animate on Scroll) for UI animations
 - SweetAlert for alert modals
 
 ---
@@ -48,29 +48,29 @@ Devents is a corporate event planning and management solution designed to provid
 
 1. Clone the repository:
 
-    ```bash
-    git clone https://github.com/sabbir-noyon/project-corporate-solution.git
-    ```
+   ```bash
+   git clone https://github.com/sabbir-noyon/project-corporate-solution.git
+   ```
 
 2. Navigate into the project directory:
 
-    ```bash
-    cd project-corporate-solution
-    ```
+   ```bash
+   cd project-corporate-solution
+   ```
 
 3. Install dependencies:
 
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 
 4. Create a Firebase project and update `.env` with your Firebase config keys.
 
 5. Run the development server:
 
-    ```bash
-    npm start
-    ```
+   ```bash
+   npm start
+   ```
 
 ---
 

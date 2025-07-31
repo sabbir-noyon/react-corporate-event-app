@@ -1,59 +1,86 @@
 [
-    {
-      "id": 1,
-      "img_url": "https://sabbir-noyon.github.io/hosting/images-1/asset-1.jpeg",
-      "title": "DINNERS & RECEPTIONS",
-      "description_short": "Join us for an unforgettable evening of fine dining, live entertainment, and networking.",
-      "description_long": "Our Annual Gala Dinner is the most anticipated event of the year. It's an opportunity for professionals from various industries to come together, celebrate achievements, and build valuable connections. The night includes a gourmet dinner, captivating performances, and inspirational speakers. Our Annual Gala Dinner is the most anticipated event of the year. It's an opportunity for professionals from various industries to come together, celebrate achievements, and build valuable connections. The night includes a gourmet dinner, captivating performances, and inspirational speakers. Our Annual Gala Dinner is the most anticipated event of the year. It's an opportunity for professionals from various industries to come together, celebrate achievements, and build valuable connections. The night includes a gourmet dinner, captivating performances, and inspirational speakers."
-    },
-    {
-      "id": 2,
-      "img_url": "https://sabbir-noyon.github.io/hosting/images-1/asset-2.jpeg",
-      "title": "CONFERENCES & MEETINGS",
-      "description_short": "Explore the latest trends in innovation and technology with industry experts.",
-      "description_long": "Our annual Conference on Innovation brings together thought leaders, entrepreneurs, and innovators to share insights and strategies. Attendees can expect engaging panel discussions, hands-on workshops, and the chance to discover groundbreaking technologies. Our annual Conference on Innovation brings together thought leaders, entrepreneurs, and innovators to share insights and strategies. Attendees can expect engaging panel discussions, hands-on workshops, and the chance to discover groundbreaking technologies. Our annual Conference on Innovation brings together thought leaders, entrepreneurs, and innovators to share insights and strategies. Attendees can expect engaging panel discussions, hands-on workshops, and the chance to discover groundbreaking technologies."
-    },
-    {
-      "id": 3,
-      "img_url": "https://sabbir-noyon.github.io/hosting/images-1/asset-3.jpeg",
-      "title": "INCENTIVE TRIPS & RETREATS​",
-      "description_short": "Boost team morale and productivity with a weekend retreat in the great outdoors.",
-      "description_long": "Our Team Building Retreat is designed to strengthen bonds among colleagues and improve teamwork. Activities include team challenges, leadership workshops, and relaxation by the campfire. It's an ideal way to refresh and refocus your team's dynamics. Our Team Building Retreat is designed to strengthen bonds among colleagues and improve teamwork. Activities include team challenges, leadership workshops, and relaxation by the campfire. It's an ideal way to refresh and refocus your team's dynamics. Our Team Building Retreat is designed to strengthen bonds among colleagues and improve teamwork. Activities include team challenges, leadership workshops, and relaxation by the campfire. It's an ideal way to refresh and refocus your team's dynamics."
-    },
-    {
-      "id": 4,
-      "img_url": "https://sabbir-noyon.github.io/hosting/images-1/asset-4.jpeg",
-      "title": "SEASONAL PARTIES",
-      "description_short": "Unveil your latest products to a targeted audience of industry professionals.",
-      "description_long": "The Product Launch Expo is the ultimate platform to introduce your new products to the market. It's a hub for product enthusiasts, buyers, and investors. Showcase your innovations, connect with potential clients, and gain valuable feedback. The Product Launch Expo is the ultimate platform to introduce your new products to the market. It's a hub for product enthusiasts, buyers, and investors. Showcase your innovations, connect with potential clients, and gain valuable feedback. The Product Launch Expo is the ultimate platform to introduce your new products to the market. It's a hub for product enthusiasts, buyers, and investors. Showcase your innovations, connect with potential clients, and gain valuable feedback."
-    },
-    {
-      "id": 5,
-      "img_url": "https://sabbir-noyon.github.io/hosting/images-1/asset-5.jpeg",
-      "title": "RED CARPET & SPECIAL EVENTS",
-      "description_short": "Learn from renowned leaders and enhance your leadership skills.",
-      "description_long": "The Leadership Seminar features influential speakers sharing their experiences and insights on effective leadership. Attendees will gain practical knowledge, networking opportunities, and the inspiration to become better leaders in their organizations. The Leadership Seminar features influential speakers sharing their experiences and insights on effective leadership. Attendees will gain practical knowledge, networking opportunities, and the inspiration to become better leaders in their organizations. The Leadership Seminar features influential speakers sharing their experiences and insights on effective leadership. Attendees will gain practical knowledge, networking opportunities, and the inspiration to become better leaders in their organizations."
-    },
-    {
-      "id": 6,
-      "img_url": "https://sabbir-noyon.github.io/hosting/images-1/asset-6.jpeg",
-      "title": "BRAND & MARKETING EVENTS",
-      "description_short": "Support a noble cause while enjoying a glamorous evening of philanthropy.",
-      "description_long": "Our Charity Fundraising Gala is dedicated to making a positive impact on our community. Guests can contribute to various charitable causes while enjoying a night of elegance, entertainment, and giving. Our Charity Fundraising Gala is dedicated to making a positive impact on our community. Guests can contribute to various charitable causes while enjoying a night of elegance, entertainment, and giving. Our Charity Fundraising Gala is dedicated to making a positive impact on our community. Guests can contribute to various charitable causes while enjoying a night of elegance, entertainment, and giving."
-    },
-    {
-      "id": 7,
-      "img_url": "https://sabbir-noyon.github.io/hosting/images-1/asset-7.jpeg",
-      "title": "CLIENT ENTERTAINMENT",
-      "description_short": "Connect with local professionals over a delicious breakfast spread.",
-      "description_long": "Our Business Networking Breakfasts offer a casual setting for professionals to expand their networks. Start your day with meaningful conversations, valuable connections, and a hearty breakfast. Our Business Networking Breakfasts offer a casual setting for professionals to expand their networks. Start your day with meaningful conversations, valuable connections, and a hearty breakfast. Our Business Networking Breakfasts offer a casual setting for professionals to expand their networks. Start your day with meaningful conversations, valuable connections, and a hearty breakfast."
-    },
-    {
-      "id": 8,
-      "img_url": "https://sabbir-noyon.github.io/hosting/images-1/asset-8.jpeg",
-      "title": "LAUNCH & WRAP PARTIES",
-      "description_short": "Stay updated on industry trends with our interactive workshop series.",
-      "description_long": "Our Industry Workshop Series covers a wide range of topics relevant to your field. Engage in hands-on learning, gain actionable insights, and connect with industry experts. Elevate your professional skills and knowledge. Our Industry Workshop Series covers a wide range of topics relevant to your field. Engage in hands-on learning, gain actionable insights, and connect with industry experts. Elevate your professional skills and knowledge. Our Industry Workshop Series covers a wide range of topics relevant to your field. Engage in hands-on learning, gain actionable insights, and connect with industry experts. Elevate your professional skills and knowledge."
-    }
-  ]
-  
+	{
+		"id": 1,
+		"img_url": "https://sabbir-noyon.github.io/hosting/images-1/asset-1.jpeg",
+		"title": "DINNERS & RECEPTIONS",
+		"description_short": "Join us for an unforgettable evening of fine dining, live entertainment, and networking.",
+		"description_long": "Whether you're planning an elegant corporate dinner, a gala evening, or a milestone celebration, Dvents helps you orchestrate unforgettable dinners and receptions that impress guests from arrival to farewell. Our platform allows you to book exquisite venues, professional caterers, ambiance stylists, and live entertainment all in one place. From intimate gatherings to grand-scale receptions, our services ensure a seamless and sophisticated experience, tailored to your theme and budget. Impress clients, partners, or guests with flawless execution and gourmet experiences. Let Dvents take the stress out of planning while you focus on hosting a memorable night."
+	},
+	{
+		"id": 2,
+		"img_url": "https://sabbir-noyon.github.io/hosting/images-1/asset-2.jpeg",
+		"title": "CONFERENCES & MEETINGS",
+		"description_short": "Explore the latest trends in innovation and technology with industry experts.",
+		"description_long": "With Dvents, organizing professional conferences, seminars, and corporate meetings becomes efficient, streamlined, and stress-free. Our intelligent platform connects you with state-of-the-art venues, audiovisual specialists, and experienced event coordinators who ensure your sessions run smoothly from start to finish. Whether you need a boardroom setup for a strategic meeting or a multi-day conference with hundreds of attendees, Dvents enables you to manage every aspect—registration, seating, logistics, and even live streaming—under one digital roof. Focus on delivering value, while Dvents takes care of the infrastructure behind a successful event."
+	},
+	{
+		"id": 3,
+		"img_url": "https://sabbir-noyon.github.io/hosting/images-1/asset-3.jpeg",
+		"title": "INCENTIVE TRIPS & RETREATS​",
+		"description_short": "Boost team morale and productivity with a weekend retreat in the great outdoors.",
+		"description_long": "Reward your top performers, motivate teams, or simply offer a refreshing escape from the work routine with Incentive Trips and Retreats—fully managed through Dvents. From serene beach resorts to mountain hideaways or luxury city experiences, our platform connects you to curated locations, group packages, wellness experiences, and adventure itineraries to inspire and rejuvenate. Whether it's a corporate bonding retreat or a reward-based incentive trip, Dvents helps you craft an unforgettable journey that aligns with your company culture and objectives, without the usual planning chaos. Reinvent how you engage and appreciate your team."
+	},
+	{
+		"id": 4,
+		"img_url": "https://sabbir-noyon.github.io/hosting/images-1/asset-4.jpeg",
+		"title": "SEASONAL PARTIES",
+		"description_short": "Unveil your latest products to a targeted audience of industry professionals.",
+		"description_long": "Celebrate the spirit of every season with unforgettable gatherings planned effortlessly through Dvents. Whether it’s a year-end holiday bash, a summer celebration, or a spring festival, our platform connects you with the best decorators, entertainers, venues, and caterers to bring the season’s mood alive. Add themed photo booths, custom gifts, seasonal menus, or interactive games to create vibrant, joyful experiences for your guests. From cozy indoor events to lavish outdoor spectacles, Dvents simplifies it all—making every seasonal party a festive highlight, whether for employees, clients, or friends and family."
+	},
+	{
+		"id": 5,
+		"img_url": "https://sabbir-noyon.github.io/hosting/images-1/asset-5.jpeg",
+		"title": "RED CARPET & SPECIAL EVENTS",
+		"description_short": "Learn from renowned leaders and enhance your leadership skills.",
+		"description_long": "Roll out the red carpet and let Dvents help you craft premium events worthy of stars. Whether it’s an award ceremony, film premiere, charity gala, or celebrity appearance, our platform offers access to luxury venues, media coordination, VIP management, and dazzling decor to create an unforgettable experience. From paparazzi flashes to after-parties, Dvents ensures seamless logistics, strict privacy, and a glamorous ambiance that elevates your brand. Let your guests experience the spotlight while we handle the behind-the-scenes magic with unmatched precision and elegance."
+	},
+	{
+		"id": 6,
+		"img_url": "https://sabbir-noyon.github.io/hosting/images-1/asset-6.jpeg",
+		"title": "BRAND & MARKETING EVENTS",
+		"description_short": "Support a noble cause while enjoying a glamorous evening of philanthropy.",
+		"description_long": "Make your brand the center of attention with immersive marketing events powered by Dvents. Whether launching a new product, hosting a pop-up activation, or running a promotional tour, our platform helps you execute creative campaigns that leave lasting impressions. Collaborate with professional brand strategists, designers, event managers, and tech teams—all booked easily through Dvents. Incorporate experiential storytelling, live demos, interactive booths, and social media engagement to boost visibility and connect authentically with your audience. We turn your vision into a bold brand experience that resonates long after the event ends."
+	},
+	{
+		"id": 7,
+		"img_url": "https://sabbir-noyon.github.io/hosting/images-1/asset-7.jpeg",
+		"title": "CLIENT ENTERTAINMENT",
+		"description_short": "Connect with local professionals over a delicious breakfast spread.",
+		"description_long": "Strengthen client relationships with thoughtful and memorable entertainment experiences arranged via Dvents. From executive dinners and luxury suite bookings to golf retreats, live shows, or personalized gifting events, we help you impress your clients with class and creativity. Choose venues that speak sophistication, curate premium hospitality, and let our experts coordinate every detail—from RSVPs to transportation. These events aren’t just fun—they build loyalty, trust, and long-term partnerships. With Dvents, client entertainment becomes a strategic, stress-free, and impactful investment in your business relationships."
+	},
+	{
+		"id": 8,
+		"img_url": "https://sabbir-noyon.github.io/hosting/images-1/asset-8.png",
+		"title": "LAUNCH & WRAP PARTIES",
+		"description_short": "Stay updated on industry trends with our interactive workshop series.",
+		"description_long": "Kick off or close your project, production, or campaign in style with high-energy launch and wrap parties coordinated through Dvents. Whether you're celebrating a product debut, film wrap, or project milestone, we help you book trendy venues, DJs, themed décor, and catering that match your brand's vibe. Add press coverage, social media moments, and curated experiences to amplify your message. Dvents streamlines the planning so you can focus on celebrating success with your team, stakeholders, or audience. Make every launch or wrap party a memorable exclamation mark to your efforts."
+	},
+	{
+		"id": 9,
+		"img_url": "https://sabbir-noyon.github.io/hosting/images-1/asset-9.png",
+		"title": "WORKSHOPS & TRAINING PROGRAMS",
+		"description_short": "Participate in interactive sessions designed to develop your professional skills.",
+		"description_long": "Plan focused and efficient workshops, training programs, or bootcamps with ease through Dvents. Whether it's for corporate upskilling, team development, or community education, our platform offers access to suitable spaces, technical setups, trainers, and participant tools. Customize everything—from seating arrangements and breakout rooms to interactive whiteboards and catering—while keeping logistics stress-free. With options for in-person, hybrid, or fully virtual setups, Dvents empowers you to deliver high-quality learning experiences that engage participants and achieve your program’s learning goals."
+	},
+	{
+		"id": 10,
+		"img_url": "https://sabbir-noyon.github.io/hosting/images-1/asset-10.png",
+		"title": "PRODUCT DEMOS & SHOWCASES",
+		"description_short": "Experience live product demonstrations and explore the latest innovations.",
+		"description_long": "Showcase your product or service with clarity, style, and impact through Dvents. Whether it's a tech demo, fashion showcase, vehicle reveal, or prototype launch, we help you create an environment that highlights your innovation. Book specialized venues, lighting designers, demo booths, video production crews, and audience engagement tools—all in one place. From press invites to live-streamed presentations, every detail is handled so you can focus on telling your story. Let your product shine while Dvents ensures everything behind the scenes runs flawlessly."
+	},
+	{
+		"id": 11,
+		"img_url": "https://sabbir-noyon.github.io/hosting/images-1/asset-11.png",
+		"title": "CULTURAL & HERITAGE CELEBRATIONS",
+		"description_short": "Celebrate cultural diversity through music, food, performances, and traditions.",
+		"description_long": "Celebrate culture, history, and diversity with immersive heritage events that connect people and traditions. Whether you're organizing a regional festival, national day, religious celebration, or traditional performance, Dvents helps you coordinate with cultural artists, local vendors, heritage venues, and authentic cuisine providers. Add storytelling elements, rituals, music, and crafts to enrich the atmosphere and honor traditions. These events foster community, inclusivity, and identity—and Dvents ensures they are respectfully and beautifully brought to life, down to the smallest ceremonial detail."
+	},
+	{
+		"id": 12,
+		"img_url": "https://sabbir-noyon.github.io/hosting/images-1/asset-12.png",
+		"title": "VIP NETWORKING COCKTAILS",
+		"description_short": "Mingle with executives and thought leaders in an upscale social setting.",
+		"description_long": "Create exclusive networking opportunities with curated cocktail events designed for decision-makers and elite guests. Whether it's for investors, industry leaders, or executive clients, Dvents connects you with elegant venues, premium mixologists, personalized invites, and ambient live music. Ensure privacy, comfort, and seamless coordination while facilitating genuine connections in a refined, relaxed setting. From rooftop lounges to private clubs, these high-touch experiences are perfect for sparking strategic conversations. Let Dvents handle the elegance and logistics so you can focus on relationship-building."
+	}
+]
